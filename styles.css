@@ -1,0 +1,41 @@
+
+.navbar{
+    background-color: #090e24;
+    padding: 30px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.nav-title {
+    float: left;
+    color: white;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-button a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-me h2{
+    margin-top: 80px;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: azure;
+}
+
+.name {
+    font-weight: bold;
+    color: azure;
+    font-size: 50px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
