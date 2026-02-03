@@ -1,41 +1,72 @@
 
-.navbar{
-    background-color: #090e24;
-    padding: 30px;
-    overflow: hidden;
-    border-radius: 8px;
-}
+    .navbar{
+        background-color: #090e24;
+        padding: 30px;
+        overflow: hidden;
+        border-radius: 8px;
+    }
 
-.nav-title {
-    float: left;
-    color: white;
-    font-size: 24px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.nav-button a {
-    float: right;
-    color: white;
-    text-align: center;
-    padding: 20px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    .nav-title {
+        float: left;
+        color: white;
+        font-size: 24px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .nav-button a {
+        float: right;
+        color: white;
+        text-align: center;
+        padding: 20px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 
-.about-me h2{
-    margin-top: 80px;
-    margin-left: 100px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    color: azure;
-}
+    .aboutme h2{
+        margin-left: 100px;
+        margin-top: 80px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        color: azure;
+    }
 
-.name {
-    font-weight: bold;
-    color: azure;
-    font-size: 50px;
-}
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
+    .my-picture {
+        margin-right: 100px;;
+    }
+    .name {
+        font-weight: bold;
+        color: azure;
+        font-size: 50px;
+    }
+    .introduction-row{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .image-placeholder {
+        width: 300px;
+        background-color: #ddd; /* A light grey background */
+        border: 1px solid #aaa; /* A border for visual definition */
+        display: flex;        /* Center the text inside the box */
+        align-items: center;
+        color: #555;          /* Text color */
+        font-family: sans-serif;
+        font-size: 14px;
+        margin: 30px;
+        justify-content: center;
+    }
+
+    .projects-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .projects-container{
+        width: 100%;         /* Set your desired width */
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
