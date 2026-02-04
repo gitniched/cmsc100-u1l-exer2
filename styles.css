@@ -1,26 +1,49 @@
 
+    body{
+        background: radial-gradient(circle, #000000, #0b1020);
+    }
     .navbar{
+        display: flex;
+        align-items: center;
+        gap: 12px;
         background-color: #090e24;
         padding: 30px;
-        overflow: hidden;
         border-radius: 8px;
+        margin-bottom: 10px;
+        background: linear-gradient(to bottom, #141743, #080e25);
     }
 
+    .takumi {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-right: 12px;
+        margin-left: 0;
+        order: -1;
+        object-fit: cover;
+    }
     .nav-title {
-        float: left;
         color: white;
+        margin-left: 90px;
         font-size: 24px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+    .nav-button {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        gap: 10px;
+    }
     .nav-button a {
-        float: right;
         color: white;
         text-align: center;
-        padding: 20px 16px;
+        padding: 10px 16px;
         text-decoration: none;
         font-size: 17px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+
 
     .aboutme h2{
         margin-left: 100px;
@@ -30,8 +53,46 @@
         color: azure;
     }
 
+    .aboutme p1{
+        margin-left: 100px;
+        margin-right: 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: azure;
+    }
+
+    .university{
+        font-weight: bold;
+        margin-left: 100px;
+    }
     .my-picture {
-        margin-right: 100px;;
+        position: relative;
+        width: 400px;
+        height: 400px;
+        margin-right: 120px;
+    }
+
+    .my-picture img {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        margin-top: 15px;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20%;
+    }
+
+    .picture-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border:#090e24 solid 8px;
+        border-radius: 20%;
+        z-index: -1;
     }
     .name {
         font-weight: bold;
@@ -56,7 +117,12 @@
         margin: 30px;
         justify-content: center;
     }
-
+    .projects-row h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        color: azure;
+        margin-bottom: -5px;
+    }
     .projects-row{
         display: flex;
         flex-direction: column;
@@ -69,4 +135,79 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        margin-bottom: -40px;
+    }
+
+    .project-description{
+        width: 300px;
+        margin-inline: 30px;
+        justify-items: center;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .descriptions-container{
+        width: 100%;
+        height: 200px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .skills-row{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: azure;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-container{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 100px;        
+    }
+
+    .skill-box {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        margin: 10px;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .skill-box img {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+        justify-content: space-evenly;
+
+
+    }
+
+    #r-logo{
+        width: 200px;
+        height: 230px;
+        margin-right: 50px;
+    }
+
+    .footer-content{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: azure;
+        background-color: #090e24;
+        padding: 20px;
+        margin-top: 40px;
+        border-radius: 8px;
+        justify-content: center;
+        justify-items: center;
+        background: linear-gradient(to top, #141743, #080e25);
+
     }
