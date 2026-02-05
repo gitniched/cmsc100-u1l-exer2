@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body style="background-color: rgb(8, 8, 18);">
-    <div class="navbar">
+    <div class="navbar" id="navbar">
         <h1 class="nav-title">gitniched</h1>
         <img src="/pictures/takumi.jpg" alt="Logo" class="takumi">
         <div class="nav-button">
             <a href="#about-me">About Me</a>
-            <a href="#projects">Projects</a>
+            <a href="#projects-row">Projects</a>
             <a href="#skills">Skills</a>
             <a href="#contacts">Contacts</a>
         </div>
@@ -21,41 +21,61 @@
     <div class="introduction-row">
         <div class="aboutme" id = "about-me">
             <h2> Hello! I'm <br> <span class="name">Nicholas Pacoma</span></h2>
-                <p1>a 19 year-old BS Computer Science student at the <br>
-                    <span class="university">University of the Philippines Los Baños</span>.
+                <p1>a 19 year-old BS Computer Science student at the <br/>
+                    <span class="university">University of the Philippines Los Baños.</span> <br/>
+                    <span class="bio"> <br>
+                        I am an aspiring developer planning to focus on software development and how technology can be used to solve real-world problems. 
+                        I enjoy learning new programming concepts, experimenting with different tools and frameworks, and improving my skills through projects 
+                        and hands-on practice. Outside of classes, I like exploring new tehcnologies, coding in my free time, and continuously challengeing 
+                        myself to grow as a developer. I'm always eater to learn, collaborate with others, and gain experiences that will help me become a 
+                        better software engineer in the future.</span>
                 </p1>
+
         </div>
+        
         <div class="my-picture">
             <img src="/pictures/myPic.png" alt="My Picture" class="profile-pic">
             <div class="picture-overlay"></div>
         </div>
     </div>
 
-    <div class="projects-row">
+    <div class="projects-row" id ="projects-row">
         <h2>Projects</h2>
         <div class="projects-container" id="projects">
             <div class="image-placeholder">
-                <h1> Image PlaceHolder</h1>
+                <img src = "pictures/java-shop.png" alt="Java Shop" class="project-image">
             </div>
             <div class="image-placeholder">
-                <h1> Image PlaceHolder</h1>
+                <img src = "pictures/r-pollution.png" alt="R Pollution" class="project-image">
             </div>
             <div class="image-placeholder">
-                <h1> Image PlaceHolder</h1>
+                <img src = "pictures/yseis.png" alt="Yseis" class="project-image">
             </div>         
         </div>
         <div class="descriptions-container">
             <div class="project-description">
-                <h3> Project Description </h3>
-                <p> This is a placeholder for my project descriptions. More details about each project will be added here soon. Stay tuned!</p>
+                <h3> Shopping Website </h3>
+                <p> A shopping website with role-based access built on Java using JavaFX.
+                    it has a voucher system which can be created by sellers and supports multiple
+                    purchase with a cart system. Users can use vouchers to discount the total price
+                    of their purchase.
+                </p>
             </div>
             <div class="project-description">
-                <h3> Project Description </h3>
-                <p> This is a placeholder for my project descriptions. More details about each project will be added here soon. Stay tuned!</p>
+                <h3>Pollution Reduction Optimizer </h3>
+                <p> A simple R project using RShiny as the frontend. It uses the Simplex algorithm to meet
+                    reduction targets while minimizing the total costs on projects. It supports dynamic calculation
+                    which automatically updates the contents when projects are selected.
+                    
+                </p>
             </div> 
             <div class="project-description">
-                <h3> Project Description </h3>
-                <p> This is a placeholder for my project descriptions. More details about each project will be added here soon. Stay tuned!</p>
+                <h3> Logistics Inventory System </h3>
+                <p> An Inventory System built using the MERN stack with CI/CD using github actions
+                    with my peers for our organization. It supports role-based access where users can borrow 
+                    items and admins can approve or disapprove requests.
+
+                </p>
             </div> 
         </div>
     </div>
@@ -91,6 +111,9 @@
                 style="text-decoration: none; color: azure">gitniched</a>
                 <br>
                 <p1>Number: +639673301214</p1>
+                <br/>
+                <a href="#navbar"><h3> Back to top</h3>
+                 </a>
             </div>
         </div>
     </footer>

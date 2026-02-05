@@ -44,18 +44,21 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
+    .aboutme{
+        padding-left: 80px;
+        max-width: 590px;
+        text-align: justify;
+        text-justify: inter-word;
 
+    }
     .aboutme h2{
-        margin-left: 100px;
-        margin-top: 80px;
+        margin-top: 60px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 30px;
         color: azure;
     }
 
     .aboutme p1{
-        margin-left: 100px;
-        margin-right: 100px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 20px;
         color: azure;
@@ -63,9 +66,13 @@
 
     .university{
         font-weight: bold;
-        margin-left: 100px;
+    }
+
+    .bio{
+        font-size: 17px;
     }
     .my-picture {
+        margin-top: 60px;
         position: relative;
         width: 400px;
         height: 400px;
@@ -83,6 +90,7 @@
         object-fit: cover;
         border-radius: 20%;
     }
+
 
     .picture-overlay {
         position: absolute;
@@ -106,14 +114,8 @@
     }
 
     .image-placeholder {
-        width: 300px;
-        background-color: #ddd; /* A light grey background */
-        border: 1px solid #aaa; /* A border for visual definition */
         display: flex;        /* Center the text inside the box */
         align-items: center;
-        color: #555;          /* Text color */
-        font-family: sans-serif;
-        font-size: 14px;
         margin: 30px;
         justify-content: center;
     }
@@ -124,6 +126,7 @@
         margin-bottom: -5px;
     }
     .projects-row{
+        margin-top: 90px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -131,15 +134,26 @@
     }
     .projects-container{
         width: 100%;         /* Set your desired width */
-        height: 400px;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        margin-bottom: -40px;
+        margin-bottom: -30px;
+
+    }
+
+    .project-image {
+        width: 110%;
+        height: 250px;
+        border-radius: 6px;
+    }
+
+    .image-placeholder img:hover{
+        transform: scale(1.07);
     }
 
     .project-description{
-        width: 300px;
+        width: 500px;
+        text-align: center;
         margin-inline: 30px;
         justify-items: center;
         color: white;
@@ -159,6 +173,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 30px;
     }
 
     .skills-container{
@@ -167,7 +182,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        margin-bottom: 100px;        
+        margin-bottom: 100px;      
+        margin-top: 20px;  
     }
 
     .skill-box {
@@ -188,9 +204,6 @@
         width: 200px;
         height: 200px;
         object-fit: contain;
-        justify-content: space-evenly;
-
-
     }
 
     #r-logo{
@@ -208,6 +221,15 @@
         border-radius: 8px;
         justify-content: center;
         justify-items: center;
+        text-decoration: none;
         background: linear-gradient(to top, #141743, #080e25);
 
+    }
+
+    .contacts h3{
+        text-align: center;
+        text-decoration: none;
+        color: azure;
+        font-size: 15px;
+        margin-bottom: -10px;
     }
