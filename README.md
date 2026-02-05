@@ -16,4 +16,8 @@ https://gitniched.github.io/cmsc100-u1l-exer2/
 5. In your repo, go to settings and locate Pages
 6. Under build and deployment, select deploy from a branch and select main branch.
 7. A link to your github page will be produced.
+
+## Key Takeaways
+1. Creating a website using html and css takes patience
+2. Designing a website is hard
     
